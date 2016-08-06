@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20px">
+    	<ImageView
+    		android:src="@drawable/bike"
+    		android:layout_height="wrap_content"
+ 			android:layout_width="120px" android:layout_marginLeft="15px"/>
+ 			
+ 		<CheckBox
+ 			android:id="@+id/sportgroup1"
+ 			android:layout_width="wrap_content"
+ 			android:layout_marginLeft="10px"
+ 			android:text="@string/sport1_name" android:layout_marginTop="05px" android:layout_height="fill_parent" android:paddingLeft="80px"/>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20px">
+    	<ImageView
+    		android:src="@drawable/tabletennis"
+    		android:layout_height="wrap_content"
+ 			android:layout_width="120px" android:layout_marginLeft="15px"/>
+ 			
+ 		<CheckBox
+ 			android:id="@+id/sportgroup2"
+ 			android:layout_width="wrap_content"
+ 			android:layout_marginLeft="10px"
+ 			android:text="@string/sport2_name" android:layout_marginTop="05px" android:layout_height="fill_parent" android:paddingLeft="80px"/>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" android:layout_marginTop="30px">
+    	
+    	<Button
+    		android:id="@+id/sportbackbutton"
+    		android:layout_height="wrap_content"
+    		android:text="@string/backbutton_name"
+    		android:textSize="14sp" android:layout_width="125px" android:layout_marginLeft="97px">
+    	</Button>
+    
+    	<Button
+    		android:id="@+id/sportjoinbutton"
+    		android:layout_height="wrap_content"
+    		android:text="@string/joinbutton_name"
+    		android:textSize="14sp" android:layout_marginLeft="20px" android:layout_width="125px">>
+    	</Button>
+    
+    </LinearLayout>
+	
+</LinearLayout>

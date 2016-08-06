@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	<string name="JoinName">Join</string>	
+    <string name="Join1_name">Join</string>
+    <string name="idlabel_name">帳號：</string>
+    <string name="passwordlabel_name">密碼：</string>
+    <string name="loginbutton_name">登入</string>
+    <string name="registerbutton_name">還沒有帳號?，點這裡註冊新帳號!</string>        <string name="dialogtitle_1_1">Error</string>    <string name="dialogcontext_1_1">請輸入您的帳號或密碼</string>    <string name="dialogbutton_1_1">OK</string>        <string name="dialogtitle_1_2">Error</string>    <string name="dialogcontext_1_2">請檢查您帳號及密碼的位數(至少4位)</string>    <string name="dialogbutton_1_2">OK</string>
+    
+    
+    <string name="Join2_name">註冊頁面</string>    <string name="uploadphotobutton_name">更換圖片</string>    <string name="userlabel">帳號</string>        <string name="userlabel_modify">使用者名稱</string>    <string name="passwordlabel">密碼</string>    <string name="retypelabel">重新輸入密碼</string>        <string name="checkidbutton_name">檢查帳號</string>    <string name="maleratiobutton_name">男性</string>    <string name="femaleratiobutton_name">女性</string>    <string name="birthdayadlabel">生日</string>    <string name="yearlabel">年</string>    <string name="monthlabel">月</string>    <string name="daylabel">日</string>    <string name="locationcountrylabel">國家</string>    <string name="citylabel">城市</string>    <string name="backbutton_name">回前一頁</string>    <string name="submitbutton_name">送出</string>        <string name="processdialogtitle_checkid">連接Join Server...</string>    <string name="processdialogcontext_checkid">檢查帳號...</string>    <string name="dialogtitle_2_1">Error</string>    <string name="dialogcontext_2_1">請填寫所有的資料</string>    <string name="dialogbutton_2_1">OK</string>    <string name="dialogtitle_2_2">Error</string>    <string name="dialogcontext_2_2">請依照長度限制填寫資料</string>    <string name="dialogbutton_2_2">OK</string>        <string name="dialogtitle_2_3">Error</string>    <string name="dialogcontext_2_3">請重新確定密碼是否一樣</string>    <string name="dialogbutton_2_3">OK</string>        <string name="dialogtitle_2_4">Error</string>    <string name="dialogcontext_2_4">請輸入帳號</string>    <string name="dialogbutton_2_4">OK</string>        <string name="dialogtitle_2_5">帳號檢查結果</string>    <string name="dialogcontext_2_5_1">帳號已被使用</string>        <string name="dialogcontext_2_5_2">您可以使用此帳號</string>    <string name="dialogbutton_2_5">OK</string>        
+    
+    
+    
+    <string name="Join3_name">歡迎頁面</string>
+    <string name="namelabel">帳號：</string>
+    <string name="sexlabel">性別：</string>
+    <string name="birthdaylabel">生日：</string>
+    <string name="locationlabel">地點：</string>
+    <string name="divi">/</string>
+    <string name="comma">,</string>
+    <string name="processdialogtitle">連接 Join Server</string>
+    <string name="processdialogcontext">連接中...</string>
+    <string name="dialogtitle_3_1">錯誤的帳號或密碼</string>
+    <string name="dialogcontext_3_1">請檢查您的帳號及密碼</string>
+    <string name="dialogbutton_3_1">OK</string>
+    <string name="dialogtitle_3_2">帳號錯誤</string>
+    <string name="dialogcontext_3_2">此帳號已被使用，請更換帳號</string>
+    <string name="dialogbutton_3_2">OK</string>        <string name="dialogtitle_3_3">取得Group資訊</string>    <string name="dialogcontext_3_3">已從 JOIN server 取得Group資訊!</string>    <string name="dialogbutton_3_3_1">查看</string>        <string name="dialogbutton_3_3_2">取消</string>
+    <string name="dialogtitle_3_4">您有新的消息!</string>    <string name="dialogcontext_3_4">有人邀請您加入活動!</string>    <string name="dialogbutton_3_4">查看</string>	<string name="dialogtitle_3_5">結果</string>    <string name="dialogcontext_3_5">投票結果!</string>    <string name="dialogbutton_3_5">查看</string>
+    
+    
+    <string name="Join7_name">See More Groups</string>
+    <string name="seachtitle">What do you wanna JOIN?</string>
+    <string name="type1_name">Shopping</string>
+    <string name="type2_name">Sport</string>
+    <string name="type3_name">Travel</string>
+    <string name="type4_name">Entertainment</string>
+    <string name="type5_name">Food</string>
+    <string name="type6_name">Reading</string>
+    <string name="pop1_name">FE21</string>
+    <string name="pop2_name">Bike</string>
+    <string name="pop3_name">U.S.A</string>
+    <string name="joinbutton_name">JOIN</string>
+    
+    <string name="Join8_name">Shopping Type</string>
+    <string name="shop1_name">FE21</string>
+    <string name="shop2_name">SOGO</string>
+    
+    
+    <string name="Join8_2_name">Sport Type</string>
+    <string name="sport1_name">Bike</string>
+    <string name="sport2_name">Table Tennis</string>
+       <string name="Weather_title">Weather Information</string>
+    
+    <string name="Join8_3_name">Travel Type</string>
+    <string name="travel1_name">USA</string>
+    <string name="travel2_name">Japan</string>
+        <string name="usersearchlabel_name">Please enter search word</string>    <string name="changestatelabel_name">Please enter new state</string>	<string name="join11_title">修改個人資料</string>    <string name="modifyButton_join11">修改</string>    <string name="cancelButton_join11">取消</string>           <string name="databaseillustration">歡迎使用景點資料庫,請按下menu鍵開始\n                                       新建景點:讓您加入景點到資料庫中\n            選擇景點:讓您選擇今天要去的景點,亦可編輯景點\n            今天去哪:讓系統推薦景點給您           </string>  <string name="Databaseapp">我的資料庫</string>  <string name="str_manu1">新建景點</string>  <string name="str_manu2">選擇景點</string>  <string name="str_manu3">今天去哪？</string>  <string name="str_label1">景點名稱：</string>  <string name="str_label2">地址：</string>  <string name="str_label3">描述：</string>  <string name="str_label4">景點資料庫</string>  <string name="str_cal"></string>  <string name="str_button1">送出</string>  <string name="str_whattodo">資料維護作業</string>  <string name="str_select_it">選擇景點</string>  <string name="str_edit_it">資料修改</string>  <string name="str_del_it">刪除資料</string>  <string name="str_cancel">取消</string>  <string name="databaserandom">系統推薦景點</string>       <string name="result_title">投票結果</string>   <string name="hintr_1">參與者:</string>   <string name="hintr_2">目的地:</string>   <string name="hintr_3">時間:</string>   <string name="joinr_ok">完成</string> 
+</resources>

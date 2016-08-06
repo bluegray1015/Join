@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_grouptype">choose a word </string>
+    <string name="search_word_word">choose a word</string> 
+    <string name="search_newgroup">search</string>  
+    <string name="search_cancelnew">cancel</string> 
+    <string-array name="search_word_array">
+    <item>小吃</item>        <item>夜市</item>        <item>郵局</item>        <item>景點</item>
+    <item>飯店</item>
+    <item>百貨</item>
+    <item>電影院</item>
+    <item>客運</item>
+    <item>火車站</item>    <item>醫院</item>    <item>加油站</item>    <item>旅館</item>            <item>超商</item>        <item>學校</item>         <item>體育</item>         <item>銀行</item>        <item>KTV</item>        <item>派出所</item>        <item>拖吊場</item>        <item>停車場</item>        <item>公司</item>    
+    </string-array>
+</resources>

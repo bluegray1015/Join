@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="join5_title">開始邀請</string>
+	<string name="join5_select1">\tSnack</string>
+    <string name="join5_select2">\tKTV</string>
+	<string name="hint5_1">Nearby Friends:</string>
+	<string name="nearby_friend1">Kapin</string>	
+	<string name="nearby_friend2">Allan</string>
+	<string name="hint5_2">Nearest Place:</string>
+	<string name="nearest_place1">新竹門市</string>
+	<string name="nearest_place2">中壢門市</string>
+	<string name="active1">active</string>
+	<string name="join5_map1">See Map</string>
+	<string name="nearby_friend3">Rebaca</string>
+	<string name="nearby_friend4">Yi-Ting</string>
+	<string name="nearest_place3">南寮</string>
+	<string name="nearest_place4">寶二水庫</string>
+	<string name="active2">active</string>
+	<string name="join5_map2">See Map</string>			<string name="dialogtitle">Error</string>	    <string name="dialogcontext">Please select at least one invited friends and Destinations</string>        <string name="dialogbutton">OK</string>
+</resources>

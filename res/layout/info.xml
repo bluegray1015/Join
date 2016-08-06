@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget29"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+
+	<TextView 
+		android:layout_height="wrap_content" 
+		android:id="@+id/TextView01" 
+		android:layout_width="wrap_content" 
+		android:text="Please choose a user" 
+		android:layout_y="0dip" 
+		android:layout_x="30dip" android:textSize="18sp">
+	</TextView>
+	
+	<Spinner 
+		android:layout_height="wrap_content" 
+		android:id="@+id/Spinner01" 
+		android:layout_width="187dip" 
+		android:layout_y="60dip" 
+		android:layout_x="28dip">
+	</Spinner>
+	
+	<TextView 
+		android:layout_height="wrap_content" 
+		android:id="@+id/TextView02" 
+		android:layout_width="wrap_content" 
+		android:layout_x="30dip" 
+		android:layout_y="30dip" 
+		android:text="to be the new leader." android:textSize="18sp">
+	</TextView>
+
+</AbsoluteLayout>

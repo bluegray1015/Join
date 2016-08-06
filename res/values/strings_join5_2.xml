@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="maphello">Hello Google Map</string>    <string name="routehello">路徑規畫</string>
+  <string name="join5_2_title">Map</string>
+  <string name="str_err_address">地址不存在</string>
+  <string name="str_err_location">無法取得Location</string>
+  <string name="str_my_location">目前所在地址：</string>    <string name="str_longitude">經度(Longitude)：</string>     <string name="str_latitude">緯度(Latitude)：</string>     <string name="str_default_address">新竹市東區大學路</string>   <string name="str_button5_2_1">開始規劃</string>   <string name="str_button5_2_2">+</string>   <string name="str_button5_2_3">-</string>   <string name="str_to">前往：</string> 
+</resources>

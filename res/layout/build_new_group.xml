@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ImageView   android:id="@+id/myImageView9"   
+	android:layout_width="120px" 	android:layout_height="140px"
+		android:src="@drawable/upload"
+		android:layout_x="18px"
+		android:layout_y="20px"
+    />
+    <Button   android:id="@+id/join9change"        
+		android:layout_width="wrap_content"        
+		android:layout_height="wrap_content"        
+ 		android:text="@string/join9_upload" />
+</LinearLayout>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/join9_groupname"
+    />
+<EditText android:id="@+id/join9_groupname" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    /> 
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="10dip"
+    android:text="@string/join9_grouptype"    
+    />
+<Spinner
+    android:id="@+id/join9_grouptypearray"        
+    android:layout_width="fill_parent"        
+    android:layout_height="wrap_content"        
+    android:prompt="@string/join9_group_type_array"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/join9_groupleader"
+    />
+<EditText android:id="@+id/join9_groupleader" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<Button   android:id="@+id/join9_newgroup"        
+		android:layout_width="wrap_content"        
+		android:layout_height="wrap_content"        
+ 		android:text="@string/join9_newgroup" />
+	<Button   android:id="@+id/join9_cancelnew"        
+		android:layout_width="wrap_content"        
+		android:layout_height="wrap_content"        
+ 		android:text="@string/join9_cancelnew" />
+</LinearLayout>
+</LinearLayout>

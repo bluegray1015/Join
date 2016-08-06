@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="dialog_title">模式選擇</string>
+        <array name="dialog_list">
+        	<item>一般模式</item>
+        	<item>行車模式</item>
+        </array>
+    </resources>

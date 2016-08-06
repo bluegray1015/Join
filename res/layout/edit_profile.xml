@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/cmyImageView"
+            android:layout_width="185px"
+            android:layout_height="210px"
+            android:layout_x="08px"
+            android:layout_y="10px"
+            android:src="@drawable/userelmo" />
+
+        <Button
+            android:id="@+id/cchangephotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60px"
+            android:layout_x="30px"
+            android:layout_y="230px"
+            android:text="@string/uploadphotobutton_name"
+            android:textSize="12sp" >
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="210px"
+            android:layout_y="05px"
+            android:text="@string/userlabel_modify"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cusernameEdit"
+            android:layout_width="210px"
+            android:layout_height="50px"
+            android:layout_x="210px"
+            android:layout_y="40px"
+            android:text=""
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="210px"
+            android:layout_y="100px"
+            android:text="@string/passwordlabel"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <com.join.LineEditText
+            android:id="@+id/cpasswordEdit"
+            android:layout_width="210px"
+            android:layout_height="50px"
+            android:layout_x="210px"
+            android:layout_y="135px"
+            android:background="@null"
+            android:maxLength="14"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="210px"
+            android:layout_y="195px"
+            android:text="@string/retypelabel"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <com.join.LineEditText
+            android:id="@+id/cretypeEdit"
+            android:layout_width="210px"
+            android:layout_height="50px"
+            android:layout_x="210px"
+            android:layout_y="230px"
+            android:background="@null"
+            android:maxLength="14"
+            android:password="true"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="06px"
+            android:layout_y="290px"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/cmaleRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maleratiobutton_name"
+                android:textColor="@color/blue" />
+
+            <RadioButton
+                android:id="@+id/cFemaleRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/femaleratiobutton_name"
+                android:textColor="@color/red" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="06px"
+            android:layout_y="355px"
+            android:text="@string/birthdayadlabel"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <com.join.LineEditText
+            android:id="@+id/cbirthEdit"
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_x="60px"
+            android:layout_y="390px"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:maxLength="12"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="06px"
+            android:layout_y="440px"
+            android:text="@string/locationcountrylabel"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <com.join.LineAutoCompleteTextView
+            android:id="@+id/ccountryEdit"
+            android:layout_width="320px"
+            android:layout_height="50px"
+            android:layout_x="06px"
+            android:layout_y="480px"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="06px"
+            android:layout_y="540px"
+            android:text="@string/citylabel"
+            android:textColor="#FF7F24"
+            android:textSize="16sp" />
+
+        <com.join.LineAutoCompleteTextView
+            android:id="@+id/ccityEdit"
+            android:layout_width="320px"
+            android:layout_height="50px"
+            android:layout_x="06px"
+            android:layout_y="580px"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14sp" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="08px"
+            android:layout_y="650px" >
+
+            <Button
+                android:id="@+id/cancelButton_join11"
+                android:layout_width="125px"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="97px"
+                android:text="@string/cancelButton_join11"
+                android:textSize="14sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/modifyButton_join11"
+                android:layout_width="125px"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20px"
+                android:text="@string/modifyButton_join11"
+                android:textSize="14sp" >
+            </Button>
+        </TableRow>
+    </AbsoluteLayout>
+
+</LinearLayout>

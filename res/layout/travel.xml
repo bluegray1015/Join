@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20px">
+    	<ImageView
+    		android:src="@drawable/usa"
+    		android:layout_height="wrap_content"
+ 			android:layout_width="120px" android:layout_marginLeft="15px"/>
+ 			
+ 		<CheckBox
+ 			android:id="@+id/travelgroup1"
+ 			android:layout_width="wrap_content"
+ 			android:layout_marginLeft="10px"
+ 			android:text="@string/travel1_name" android:paddingLeft="80px" android:layout_marginTop="05px" android:layout_height="fill_parent"/>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20px">
+    	<ImageView
+    		android:src="@drawable/japan"
+    		android:layout_height="wrap_content"
+ 			android:layout_width="120px" android:layout_marginLeft="15px"/>
+ 			
+ 		<CheckBox
+ 			android:id="@+id/travelgroup2"
+ 			android:layout_width="wrap_content"
+ 			android:layout_marginLeft="10px"
+ 			android:text="@string/travel2_name" android:paddingLeft="80px" android:layout_height="fill_parent" android:layout_marginTop="05px"/>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" android:layout_marginTop="30px">
+    	
+    	<Button
+    		android:id="@+id/travelbackbutton"
+    		android:layout_height="wrap_content"
+    		android:text="@string/backbutton_name"
+    		android:textSize="14sp" android:layout_width="125px" android:layout_marginLeft="97px">
+    	</Button>
+    
+    	<Button
+    		android:id="@+id/traveljoinbutton"
+    		android:layout_height="wrap_content"
+    		android:text="@string/joinbutton_name"
+    		android:textSize="14sp" android:layout_marginLeft="20px" android:layout_width="125px">>
+    	</Button>
+    
+    </LinearLayout>
+	
+</LinearLayout>

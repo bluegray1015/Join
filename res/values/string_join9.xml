@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="join9_title">Create New</string>
+    <string name="join9_upload">Change</string>
+    <string name="join9_groupname">Group Name</string>
+    <string name="join9_grouptype">Group Type</string>
+    <string name="join9_groupleader">Group Leader</string> 
+    <string name="join9_group_type_array">choose a type</string> 
+    <string name="join9_newgroup">create</string>  
+    <string name="join9_cancelnew">cancel</string> 
+    <string-array name="join9_group_types">
+    <item>entertainment</item>
+    <item>shopping</item>
+    <item>find food</item>
+    <item>sport</item>
+    <item>travel</item>
+    <item>reading</item>
+    </string-array>
+</resources>

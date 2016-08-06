@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="join6_title">選擇時間</string>
+	<string name="hint6_1">Activity Name:\t</string>
+	<string name="hint6_2">Who is invited:\t</string>
+	<string name="hint6_3">Destination:\t</string>
+	<string name="hint6_4">time:\t</string>
+	<string name="modify">modify</string>
+	<string name="join6_send_activity">send</string>
+	
+</resources>
